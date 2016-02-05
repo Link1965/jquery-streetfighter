@@ -26,7 +26,6 @@ $(document).ready(function() {
     $('.ryu-still').show();
     $('.ryu-ready').hide();
     $('.ryu-throwing').hide();
-    $('.hadouken').hide();
   });
   });
 function playHadouken () {
