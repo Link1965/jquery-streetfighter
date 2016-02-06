@@ -2,6 +2,7 @@ $(document).ready(function() {
   $('.ryu').mouseenter(function() {
     $('.ryu-still').hide();
     $('.ryu-ready').show();
+    $('.ryu-cool').hide();
   })
 
   .mouseleave(function() {
@@ -34,6 +35,7 @@ $(document).ready(function() {
     if (event.which == 88) {
       $('.ryu-cool').show();
       $('.ryu-still').hide();
+      $('.ryu-ready').hide();
     }
   })
 
@@ -41,6 +43,7 @@ $(document).ready(function() {
     if (event.which == 88) {
       $('.ryu-cool').hide();
       $('.ryu-still').show();
+      $('.ryu-ready').hide();
     }
   })
 
