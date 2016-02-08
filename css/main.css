@@ -20,6 +20,7 @@ body {
     position: relative;
     padding-top: 60px;
     float: right;
+    margin-right: 700px;
 }
 
 .main > .ryu {
@@ -67,8 +68,8 @@ body {
     top: 175px;
 }
 
-.instructions .click {
-   width: 400px;
-   float: right;
+.instructions .hold {
+    margin-left: 200px;
+    width: 400px;
     
 }
